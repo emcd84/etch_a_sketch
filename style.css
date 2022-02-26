@@ -1,21 +1,23 @@
 #container {
     display: flex;
     flex-direction: column;
-    width: 75%;
-    height: 75%;
+    width: 800px;
+    height: 800px;
     justify-content: space-around;
     align-items: center;
 }
 
 .row {
     display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .square {
     background-color: lightblue;
     border-style: solid;
-    width: 50px;
-    height: 50px;
+    height: 100%;
+    width: 100%;
 }
 
 .square.enter {
